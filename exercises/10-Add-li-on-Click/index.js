@@ -1,5 +1,9 @@
 let button = document.querySelector("#superDuperButton");
 button.addEventListener("click", function() {
-	//your code here
+	let myli = document.createElement('li');
+	myli.innerHTML = 'Cuarto elemento';
+	document.querySelector('#myList').appendChild(myli);
+
 
 });
+
